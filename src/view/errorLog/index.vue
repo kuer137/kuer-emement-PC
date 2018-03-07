@@ -1,7 +1,7 @@
 <template>
   <div>
 
-      我是登录页
+      我是错误提示页
 
   </div>
 </template>
@@ -9,7 +9,7 @@
 <script>
 
 export default {
-  name: 'login',
+  name: 'errorLog',
   components: {
     //
   },
@@ -18,12 +18,6 @@ export default {
   },
   methods: {
     //
-  },
-  created() {
-    // window.addEventListener('hashchange', this.afterQRScan)
-  },
-  destroyed() {
-    // window.removeEventListener('hashchange', this.afterQRScan)
   }
 }
 </script>
